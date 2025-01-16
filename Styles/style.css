@@ -136,6 +136,39 @@
     border: none;
     margin-top: 30px;
 }
-.visionBtn:hover{
+
+.visionBtn:hover {
     color: rgb(7, 6, 6);
+}
+
+/* quotationSectionParentDiv */
+.quotationSectionParentDiv {
+    margin: 0px 160px 0px 160px;
+    padding: 38px 24px 38px 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    background-image:url("/images/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: 25px 29px;
+}
+
+.theQuote {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 0px;
+}
+.namePTag{
+color: rgba(14, 14, 14, 0.8);
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+}
+.attributesTag{
+color: rgba(14, 14, 14, 0.6);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
 }
