@@ -1,10 +1,17 @@
 /* global */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.body {
+    font-family: "Fira Sans", serif;
+}
 
 /* nav */
 .nav {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0px 160px 0px 160px;
+    margin-top: 20px;
 }
 
 .navTitle {
@@ -21,6 +28,11 @@
     height: 52px;
 }
 
+.navBtn:hover {
+    background-color: rgb(101, 244, 132);
+    color: black;
+}
+
 /* bannerSection */
 
 .bannerSection {
@@ -28,19 +40,102 @@
     justify-content: space-between;
     align-items: center;
     background-color: rgb(198, 228, 214);
-    /* width: 1280px;
-    height: 560px; */
     padding: 80px 100px 80px 100px;
-    margin:20px 160px 20px 160px;
+    margin: 20px 160px 20px 160px;
     border-radius: 24px;
 }
-/* .bannerTitle{
+
+.bannerTitle {
     font-weight: 500;
-} */
- .bannerBtn{
+}
+
+.bannerDecription {
+    margin-top: 30px;
+
+}
+
+.bannerBtn {
     width: 270px;
     height: 56px;
     background-color: rgb(0, 106, 80);
     border-radius: 8px;
+    color: rgb(255, 255, 255);
     border: none;
- }
+    margin-top: 30px;
+}
+
+.bannerBtn:hover {
+    background-color: rgb(105, 205, 182);
+    color: black;
+}
+
+/* pillars of Bangladesh classes */
+.pillarsInformation {
+    margin: 20px 160px 20px 160px;
+}
+
+.pillarCards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+
+}
+
+.pillarCard {
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+
+}
+
+.pillarsTitle {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 48px;
+    margin-bottom: 10px;
+}
+
+/* vision section */
+.visionInformation {
+    margin: 20px 160px 20px 160px;
+}
+
+.visionTitle {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+    margin-bottom: 0px;
+}
+
+.visionDescription {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+
+.visionCards {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.visionCard {
+    padding: 24px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+
+.visionBtn {
+    padding: 11px 20px 11px 20px;
+    background-color: rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    border: none;
+    margin-top: 30px;
+}
+.visionBtn:hover{
+    color: rgb(7, 6, 6);
+}
