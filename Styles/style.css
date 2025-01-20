@@ -148,7 +148,7 @@
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    background-image:url("/images/quote-bg.png");
+    background-image: url("/images/quote-bg.png");
     background-repeat: no-repeat;
     background-position: 25px 29px;
 }
@@ -160,15 +160,79 @@
     line-height: 24px;
     margin-bottom: 0px;
 }
-.namePTag{
-color: rgba(14, 14, 14, 0.8);
-font-size: 20px;
-font-weight: 600;
-line-height: 24px;
+
+.namePTag {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
 }
-.attributesTag{
-color: rgba(14, 14, 14, 0.6);
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+
+.attributesTag {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* opinion section */
+.opinionParent {
+    margin: 20px 160px 20px 160px;
+
+}
+
+.opinionSecTitle {
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+.tableParent {
+    border-radius: 16px;
+    background: rgb(248, 247, 247);
+    padding: 24px;
+
+}
+
+.opinionQuestionBox {
+    background-color: rgb(198, 228, 214);
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 24px;
+}
+
+.opinionBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 10px 24px;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    letter-spacing: 0%;
+
+
+}
+
+.opinionBtn {
+
+    color: rgb(14, 14, 14);
+    font-family: Fira Sans;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    letter-spacing: 0%;
+    padding: 10px 14px;
+    width: 135px;
+    background-color: rgba(9, 161, 92, 0.15);
+    border: 1px solid rgb(14, 14, 14);
+    border-radius: 4px;
 }
