@@ -148,7 +148,7 @@
     border: 1px solid rgba(14, 14, 14, 0.15);
     border-radius: 16px;
     background: rgb(255, 255, 255);
-    background-image: url("../images/quote-bg.png");
+    background-image: url("/images/quote-bg.png");
     background-repeat: no-repeat;
     background-position: 25px 29px;
 }
