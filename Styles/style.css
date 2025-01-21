@@ -465,9 +465,11 @@
     border-radius: 0px 8px 8px 0px;
     background: rgb(0, 106, 80);
 }
-.inputBtn:hover{
+
+.inputBtn:hover {
     background-color: rgb(11, 150, 115);
 }
+
 .newsLetterParagraph {
     color: rgba(14, 14, 14, 0.7);
     font-size: 14px;
@@ -480,4 +482,27 @@
     font-size: 14px;
     font-weight: 400;
     margin-top: 20px;
+}
+
+/* FOOTER */
+.footerSection {
+    margin: 20px 160px 20px 160px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footerTitle {
+    color: rgb(14, 14, 14);
+    font-size: 32px;
+    font-weight: 700;
+}
+.hrClass{
+    width: 75%;
+    margin-bottom: 30px;
+}
+.socialNetwork {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
